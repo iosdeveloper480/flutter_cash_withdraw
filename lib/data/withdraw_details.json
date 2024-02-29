@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "name": "Waqas Ali Muhammad Aslam",
+    "eid": "12115646513",
+    "phone": "+971527188709"
+  },
+  "card": {
+    "name": "WPS Premium Card",
+    "number": "72937498327498327948",
+    "balance": "3000",
+    "limit": "1000",
+    "last_withdraw": "500"
+  }
+}
