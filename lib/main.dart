@@ -1,4 +1,4 @@
-import 'package:cash_withdraw/modules/login_page.dart';
+import 'package:cash_withdraw/modules/screens/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const LoginPage(),
+      // home: const DashboardPage(),
     );
   }
 }

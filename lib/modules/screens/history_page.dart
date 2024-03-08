@@ -43,17 +43,17 @@ class _HistoryPageState extends State<HistoryPage> {
       margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       padding: const EdgeInsets.all(10),
       width: double.infinity,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
-        borderRadius: const BorderRadius.all(Radius.circular(5)),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.1),
-            spreadRadius: 3,
-            blurRadius: 4,
-            offset: const Offset(0, 2), // changes position of shadow
-          ),
-        ],
+        // borderRadius: const BorderRadius.all(Radius.circular(5)),
+        // boxShadow: [
+        //   BoxShadow(
+        //     color: Colors.grey.withOpacity(0.1),
+        //     spreadRadius: 3,
+        //     blurRadius: 4,
+        //     offset: const Offset(0, 2), // changes position of shadow
+        //   ),
+        // ],
       ),
       child: content,
     );

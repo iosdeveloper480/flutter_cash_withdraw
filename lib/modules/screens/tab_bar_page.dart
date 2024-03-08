@@ -1,6 +1,6 @@
-import 'package:cash_withdraw/modules/dashboard_page.dart';
-import 'package:cash_withdraw/modules/history_page.dart';
-import 'package:cash_withdraw/modules/settings_page.dart';
+import 'package:cash_withdraw/modules/screens/dashboard_page.dart';
+import 'package:cash_withdraw/modules/screens/history_page.dart';
+import 'package:cash_withdraw/modules/screens/settings_page.dart';
 import 'package:flutter/material.dart';
 
 class TabBarPage extends StatefulWidget {

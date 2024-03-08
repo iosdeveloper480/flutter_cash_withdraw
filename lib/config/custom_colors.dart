@@ -4,8 +4,7 @@ class CustomColors {
   CustomColors._();
 
   static Color get primary {
-    // return const Color.fromARGB(255, 255, 213, 0);
-    return colorFrom('009688');
+    return const Color.fromRGBO(26, 165, 74, 1);
   }
 
   static Color get shadow {
