@@ -47,6 +47,7 @@ class _NFCReaderPageState extends State<NFCReaderPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  //icons
                   const Icon(
                     Icons.arrow_back_ios,
                     color: Colors.green,
